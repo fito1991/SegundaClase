@@ -27,12 +27,12 @@ function charizard()
 {
 	var charizard = new Pokemon ("Charizard", 116, 83, 81, "Fire/Flying", 40);
 
-	nombrePokemon.innerText = charizard.nombre;
-	HP.innerText = charizard.vida;
-	attack.innerText = charizard.ataque;
-	defense.innerText = charizard.defensa;
-	type.innerText = charizard.tipo;
-	level.innerText = charizard.nivel;
+	nombrePokemon.textContent = charizard.nombre;
+	HP.textContent = charizard.vida;
+	attack.textContent = charizard.ataque;
+	defense.textContent = charizard.defensa;
+	type.textContent = charizard.tipo;
+	level.textContent = charizard.nivel;
 
 	image = document.getElementById("image");
 	image.src="img/char.png";
@@ -44,12 +44,12 @@ function pidgeot()
 {
 	var pidgeot = new Pokemon ("Pidgeot", 111, 74, 69, "Normal/Flying", 37);
 
-	nombrePokemon.innerText = pidgeot.nombre;
-	HP.innerText = pidgeot.vida;
-	attack.innerText = pidgeot.ataque;
-	defense.innerText = pidgeot.defensa;
-	type.innerText = pidgeot.tipo;
-	level.innerText = pidgeot.nivel;
+	nombrePokemon.textContent = pidgeot.nombre;
+	HP.textContent = pidgeot.vida;
+	attack.textContent = pidgeot.ataque;
+	defense.textContent = pidgeot.defensa;
+	type.textContent = pidgeot.tipo;
+	level.textContent = pidgeot.nivel;
 
 	image = document.getElementById("image");
 	image.src="img/pi.png";
@@ -61,12 +61,12 @@ function nidoking()
 {
 	var nidoking = new Pokemon ("Nidoking", 129, 96, 82, "Poison/Ground", 40);
 
-	nombrePokemon.innerText = nidoking.nombre;
-	HP.innerText = nidoking.vida;
-	attack.innerText = nidoking.ataque;
-	defense.innerText = nidoking.defensa;
-	type.innerText = nidoking.tipo;
-	level.innerText = nidoking.nivel;
+	nombrePokemon.textContent = nidoking.nombre;
+	HP.textContent = nidoking.vida;
+	attack.textContent = nidoking.ataque;
+	defense.textContent = nidoking.defensa;
+	type.textContent = nidoking.tipo;
+	level.textContent = nidoking.nivel;
 	image = document.getElementById("image");
 	image.src="img/nido.png";
 
@@ -77,12 +77,12 @@ function raichu()
 {
 	var raichu = new Pokemon ("Raichu", 111, 96, 53, "Electrc", 40);
 
-	nombrePokemon.innerText = raichu.nombre;
-	HP.innerText = raichu.vida;
-	attack.innerText = raichu.ataque;
-	defense.innerText = raichu.defensa;
-	type.innerText = raichu.tipo;
-	level.innerText = raichu.nivel;
+	nombrePokemon.textContent = raichu.nombre;
+	HP.textContent = raichu.vida;
+	attack.textContent = raichu.ataque;
+	defense.textContent = raichu.defensa;
+	type.textContent = raichu.tipo;
+	level.textContent = raichu.nivel;
 
 	image = document.getElementById("image");
 	image.src="img/rai.png";
@@ -94,12 +94,12 @@ function gloom()
 {
 	var gloom = new Pokemon ("Gloom", 102, 59, 65, "Grass/Poison", 37);
 
-	nombrePokemon.innerText = gloom.nombre;
-	HP.innerText = gloom.vida;
-	attack.innerText = gloom.ataque;
-	defense.innerText = gloom.defensa;
-	type.innerText = gloom.tipo;
-	level.innerText = gloom.nivel;
+	nombrePokemon.textContent = gloom.nombre;
+	HP.textContent = gloom.vida;
+	attack.textContent = gloom.ataque;
+	defense.textContent = gloom.defensa;
+	type.textContent = gloom.tipo;
+	level.textContent = gloom.nivel;
 
 	image = document.getElementById("image");
 	image.src="img/gloom.png";
@@ -111,12 +111,12 @@ function lapras()
 {
 	var lapras = new Pokemon ("Lapras", 100, 48, 55, "Water/Ice", 25);
 
-	nombrePokemon.innerText = lapras.nombre;
-	HP.innerText = lapras.vida;
-	attack.innerText = lapras.ataque;
-	defense.innerText = lapras.defensa;
-	type.innerText = lapras.tipo;
-	level.innerText = lapras.nivel;
+	nombrePokemon.textContent = lapras.nombre;
+	HP.textContent = lapras.vida;
+	attack.textContent = lapras.ataque;
+	defense.textContent = lapras.defensa;
+	type.textContent = lapras.tipo;
+	level.textContent = lapras.nivel;
 
 	image = document.getElementById("image");
 	image.src="img/la.png";
