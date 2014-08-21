@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Pokédex</title>
+	<script type="text/javascript" src="js/pokedex.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/pokedex.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Quantico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="content">
+		<nav class="nav">
+			<div class="poketitle">
+				<h1>Fito's Party</h1>
+			</div>
+			<div class="navbut">
+				<!-- <audio src="" id="cry" autoplay></audio> -->
+				<input type="button" id="ch" value="Charizard" />
+				<input type="button" id="pg" value="Pidgeot" />
+				<input type="button" id="nk" value="Nidoking" />
+				<input type="button" id="ra" value="Raichu" />
+				<input type="button" id="gl" value="Gloom" />
+				<input type="button" id="lp" value="Lapras" />
+			</div>		
+		</nav>
+
+		<!--h2 id="nombrePokemon">Pokémon de prueba</h2-->
+		<!--p id="datosPokemon">Datos de prueba</p-->
+		<div class="pokedex">
+			<div id="foto">
+				<img src="" id="image"/>
+			</div>
+			<div>
+				<p id="nombrePokemon"></p>
+			</div>
+			<div id="datosPokemon">
+				<label>HP: </label><label id="HP"></label><br/>
+				<label>Attack: </label><label id="attack"></label><br/>
+				<label>Defense: </label><label id="defense"></label><br/>
+				<label>Type: </label><label id="type"></label>				
+			</div>
+			<div id="lvl">
+				<label>Lvl: </label><label id="level"></label>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		mostrar();
+	</script>
+</body>
+</html>
